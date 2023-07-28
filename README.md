@@ -1,5 +1,9 @@
 # Matching Engine Specification
 
+_The following specification was taken from the now defunct [quantcup](https://web.archive.org/web/20120110020402/http://www.quantcup.org/home/spec)._
+
+<br>
+
 ## Summary
 
 A price-time priority limit order matching engine is responsible for determining when buy and sell orders transact (see Definitions below if unclear).
