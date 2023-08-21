@@ -49,7 +49,7 @@ Starter Code: [match.zip](https://web.archive.org/web/20110722152203/http://dl.d
   <dd>Order identification numbers which are returned by limit(). Used to uniquely identify the order for the sake of cancellation.</dd>
 
   <dt><code>t_price</code></dt>
-  <dd>Price of a share. In the range 0-65536, and interpreted as divided by 100. Eg the range is 000.00-655.36. Eg the price 123.45 = 12345; the price 23.45 = 2345; the price 23.4 = 2340</dd>
+  <dd>Price of a share. In the range 0-65536, and interpreted as divided by 100. E.g. the range is 000.00-655.36. E.g. the price 123.45 = 12345; the price 23.45 = 2345; the price 23.4 = 2340</dd>
 
   <dt><code>t_size</code></dt>
   <dd>Number of shares.</dd>
@@ -73,7 +73,7 @@ Starter Code: [match.zip](https://web.archive.org/web/20110722152203/http://dl.d
   <dd>Assume <code>limit()</code> will never be called with an order whose price field is greater than this number.</dd>
 
   <dt><code>MIN_PRICE</code></dt>
-  <dd>Assume <code>limit()</code>code> will never be called with an order whose price field is less than than this number.</dd>
+  <dd>Assume <code>limit()</code>code> will never be called with an order whose price field is less than this number.</dd>
 
   <dt><code>MAX_LIVE_ORDERS</code></dt>
   <dd>Assume there will be no more than this number of uncrossed orders sitting on the book at any time.</dd>
